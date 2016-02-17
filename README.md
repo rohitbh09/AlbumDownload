@@ -6,6 +6,7 @@ Javascript image album download
 // eg  http://www.letsplan.in/best-indian-wedding-themes/
 // past this code in console and allow images will be downloaded
 
+```
 function downloadURI(uri) 
 {
     var link = document.createElement("a");
@@ -13,7 +14,8 @@ function downloadURI(uri)
     link.href = uri;
     link.click();
 }
-
+```
+```
 function checkImagePath(){
   var domains = document.getElementsByClassName('landscape');
   var imagesCount = 0;
@@ -26,7 +28,9 @@ function checkImagePath(){
   }
   console.log("Total Images:"+imagesCount);
 }
+```
 
+```
 function downloadYourImages(){
   var domains = document.getElementsByClassName('landscape');
   for(var i = 0; i < domains.length; i++){
@@ -36,7 +40,7 @@ function downloadYourImages(){
       }
   }   
 }
-
+```
 
 // after adding this command use 
 // checkImagePath(); and check image path
