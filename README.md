@@ -1,10 +1,11 @@
+---
 # AlbumDownload
 Javascript image album download
 
 
-// basic example for download image album from website
-// eg  http://www.letsplan.in/best-indian-wedding-themes/
-// past this code in console and allow images will be downloaded
+basic example for download image album from website
+eg  http://www.letsplan.in/best-indian-wedding-themes/
+past this code in console and allow images will be downloaded
 
 ```
 function downloadURI(uri) 
@@ -42,8 +43,8 @@ function downloadYourImages(){
 }
 ```
 
-// after adding this command use 
-// checkImagePath(); and check image path
-// if that return correct path then write
-// downloadYourImages();
-// enjoy download image gallary
+after adding this command use 
+checkImagePath(); and check image path
+if that return correct path then write
+downloadYourImages();
+enjoy download image gallary
